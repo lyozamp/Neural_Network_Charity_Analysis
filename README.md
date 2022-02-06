@@ -2,7 +2,18 @@
 
 ## Overview of the analysis: 
 
-Explain the purpose of this analysis.
+1. Compare the differences between the traditional machine learning classification and regression models and the neural network models.
+2. Describe the perceptron model and its components.
+3. Implement neural network models using TensorFlow.
+4. Explain how different neural network structures change algorithm performance.
+5. Preprocess and construct datasets for neural network models.
+6. Compare the differences between neural network models and deep neural networks.
+7. Implement deep neural network models using TensorFlow.
+8. Save trained TensorFlow models for later use.
+
+## Purpose:
+
+Alphabet Soup, who is a foundation wants to predict where to make investments. The goal is to use machine learning and neural networks to apply features on the provided dataset to create a binary classifier that is capable of predicting whether applicants will be successful or not if funded by Alphabet Soup. The initial file has 34,000 organizations and a number of columns that capture metadata about each organization from past successful fundings.
 
 ## Results: 
 
