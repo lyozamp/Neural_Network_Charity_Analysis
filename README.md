@@ -21,11 +21,14 @@ Using bulleted lists and images to support your answers, address the following q
 
 ### Data Preprocessing
 
-What variable(s) are considered the target(s) for your model?
+1. What variable(s) are considered the target(s) for your model?
+Checking to see if the target is marked as successful in the DataFrame, indicating that it has been successfully funded by AlphabetSoup.
 
-What variable(s) are considered to be the features for your model?
+2. What variable(s) are considered to be the features for your model?
+The IS_SUCCESSFUL column is the feature chosen for this dataset.
 
-What variable(s) are neither targets nor features, and should be removed from the input data?
+3. What variable(s) are neither targets nor features, and should be removed from the input data?
+The EIN and NAME columns will not increase the accuracy of the model and can be removed to improve code efficiency.
 
 ### Compiling, Training, and Evaluating the Model
 
